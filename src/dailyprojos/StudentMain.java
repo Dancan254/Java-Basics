@@ -2,7 +2,7 @@ package dailyprojos;
 
 import java.util.Scanner;
 
-public class Main {
+public class StudentMain {
     public static void main(String[] args) {
 
         int count = 0;

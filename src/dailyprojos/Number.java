@@ -1,11 +1,15 @@
 package dailyprojos;
+/**
+ * the following program is used to predict the pattern of given numbers
+ * the user then enters the number he wishes to extract from the pattern
+ */
 
 import java.util.Scanner;
 
 public class Number {
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
-        System.out.print("Enter the number you wish to access: ");
+        System.out.print("Enter the index of the number you wish to access: ");
         int num = sn.nextInt();
         System.out.print("Enter number one: ");
         int num1 = sn.nextInt();

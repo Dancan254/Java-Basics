@@ -1,9 +1,11 @@
 package dailyprojos;
 
-//the program is designed to record data for employees to the given limit
-//it requires name, age, id, salary and number of employees
-//max number depends on the user preference and should be declared as final
-//methods required are...add employees, print the list,
+/**
+ * the program is designed to record data for employees to the given limit
+ * it requires name, age, id, salary and number of employees
+ * max number depends on the user preference and should be declared as final
+ * methods required are...add employees, print the list,
+ */
 public class EmployeeManagementSystem {
 
     private final int MAX_EMPLOYEES = 2;
